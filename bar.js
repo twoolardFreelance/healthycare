@@ -28,7 +28,7 @@ var chartData = {
     "Saturday",
     "Sunday"
   ],
-  datasets: [carbData, fatsData, proteinData]
+  datasets: [fatsData, proteinData, carbData]
 };
 
 var chartOptions = {
@@ -41,14 +41,31 @@ var chartOptions = {
     ],
     yAxes: [
       {
-        id: "y-axis-carbohydrate"
-      },
-      {
-        id: "y-axis-fat"
-      },
-      {
-        id: "y-axis-protein"
+      display: false
       }
+    /*
+      {
+        id: "y-axis-fat",
+        ticks: {
+          beginAtZero: true
+        },
+        display: true 
+      },
+      {
+        id: "y-axis-protein",
+        ticks: {
+          beginAtZero: true
+        },
+        display: false
+      },
+      {
+        id: "y-axis-carbohydrate",
+        ticks: {
+          beginAtZero: true
+        },
+        dispay: false
+      }
+    */
     ]
   },
   title: {
