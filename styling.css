@@ -375,7 +375,6 @@ hr {
   height: 800px;
 }
 
-
 .main_text{
   font-family: "Julius Sans One", sans-serif;
   font-size: 35px;
@@ -390,9 +389,11 @@ hr {
   padding-left: 15px;
   color: white;
 }
+
 .imput{
   padding-left: 15px;
 }
+
 .centered_box{
   height: 270px;
   width: 500px;
@@ -400,11 +401,13 @@ hr {
   margin: auto;
   background-color: #4E2A84; 
 }
+
 .contact_info{
 color: #4E2A84;
 height: 70px;
 width: 500px;
 text-align: center;
+}
 
 .your_profile{
   color:#4E2A84; 
