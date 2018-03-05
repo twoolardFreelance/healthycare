@@ -345,3 +345,32 @@ position: center;
   box-sizing: border-box;
   width: 250px;
 }
+
+#diet_title {
+  color:#4E2A84; 
+  font-size: 20px;
+  font-family: "Julius Sans One", sans-serif;
+  letter-spacing: 0.2px;
+  border-spacing: 0px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.chosen_select { 
+  margin: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.chosen_select option{
+  font-family: "Julius Sans One", sans-serif;
+  letter-spacing: 0.2px;
+  border-spacing: 0px;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 6px 0px 6px 0px;
+  color: #4E2A84;
+  width: 250px; 
+  box-sizing: border-box;
+}

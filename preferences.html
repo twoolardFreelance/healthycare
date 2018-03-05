@@ -1,10 +1,12 @@
 <html>
 <head>
   <link rel="stylesheet" href="forms.css"> </link>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
   <link rel="stylesheet" href="forms.css"> </link>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+  <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
 </head>
 
 <div class="wrapper fadeInDown">
@@ -18,8 +20,9 @@
       <b id="preferences_title"> Please choose your preferences</b>
     </div>
 
+    
     <!-- Preferences dropdowns -->
-    <form> 
+    <form action="/action_page.php"> 
       <div class="btn-group">
         <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Select a Dining Hall <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -39,7 +42,7 @@
           </ul>
       </div>
       <div class="btn-group">
-        <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Select you meal plan<span class="caret"></span></a>
+        <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Select your meal plan<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Unlimited</a></li>
             <li><a href="#">Base 14</a></li>
@@ -49,6 +52,8 @@
       </div>
       <input type="button" class="fadeIn third" value="Next" onclick="newPage(0)">
     </form>
+  
+
 
   </div>
 <script src="dropdown.js"> </script>

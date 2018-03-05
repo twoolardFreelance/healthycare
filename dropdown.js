@@ -5,6 +5,9 @@ $(".dropdown-menu li a").click(function(){
 
 function newPage(num) {
 var url=new Array();
-url[0]="content.html";
+url[0]="restrictions.html";
+url[1]="content.html";
 window.location=url[num];``
-}
+};
+
+$(".chosen-select").chosen()
