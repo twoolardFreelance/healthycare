@@ -404,3 +404,16 @@ color: #4E2A84;
 height: 70px;
 width: 500px;
 text-align: center;
+
+.your_profile{
+  color:#4E2A84; 
+  font-size: 30px;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  padding-right: 20px;
+  font-weight: lighter;
+  position: relative;
+  left: 20px;
+  bottom: 50px;
+  padding-top: 20px;
+}
