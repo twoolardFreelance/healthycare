@@ -5,6 +5,6 @@ $(".dropdown-menu li a").click(function(){
 
 function newPage(num) {
 var url=new Array();
-url[0]="https://alexisbdr.github.io/healthycats/content.html";
+url[0]="content.html";
 window.location=url[num];``
 }
