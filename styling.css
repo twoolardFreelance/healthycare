@@ -299,34 +299,29 @@ hr {
   font-weight: 300;
   border-collapse: collapse;
   float: left;
-  margin-top: 70px ;
-  margin-left: 170px;
-  padding: 10px;
-
+  margin-top: 80px ;
+  margin-left: 100px;
  }
-
 #recommended_meals tr,
 #recommended_meals th{
   color: white;
-  font-size: 30px;
+  font-size: 32px;
   background-color: #4E2A84;
   border: .5px solid black;
   padding: 7px 10px;
   letter-spacing: 0.2px;
   border-spacing: 0px;
-  font-weight: 350;
+  font-weight: 360;
   text-align: center;
 }
 #recommended_meals td{ 
    
    border: .5px solid black;
    color: black;
-   font-size: 20px;
+   font-size: 18px;
    background-color: white;
    padding: 5px 10px;
-   text-align: left;
-
-   
+   text-align: left;  
 }
 
 #dining_halls{
@@ -337,27 +332,25 @@ hr {
   border-spacing: 0px;
   border-collapse: collapse;
   float: right;
-  margin-top: 70px;
-  margin-right: 170px;
-  
+  margin-top: 80px;
+  margin-right: 100px; 
 }
-
 #dining_halls tr,
 #dining_halls th{
   background-color: #4E2A84;
-  font-size: 30px;
+  font-size: 32px;
   color: white;
   border: .5px solid black;
    padding: 7px 10px;
   letter-spacing: 0.2px;
   border-spacing: 0px;
-  font-weight: 350;
+  font-weight: 360;
   text-align: center;
 }
 #dining_halls td{
   border: .5px solid black;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   background-color: white;
   padding: 5px 10px;
   text-align: left;
@@ -375,7 +368,6 @@ hr {
   height: 800px;
 }
 
-
 .main_text{
   font-family: "Julius Sans One", sans-serif;
   font-size: 35px;
@@ -390,9 +382,11 @@ hr {
   padding-left: 15px;
   color: white;
 }
+
 .imput{
   padding-left: 15px;
 }
+
 .centered_box{
   height: 270px;
   width: 500px;
@@ -400,11 +394,13 @@ hr {
   margin: auto;
   background-color: #4E2A84; 
 }
+
 .contact_info{
 color: #4E2A84;
 height: 70px;
 width: 500px;
 text-align: center;
+
 
 .your_profile{
   color:#4E2A84; 
