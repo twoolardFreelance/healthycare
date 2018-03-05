@@ -396,7 +396,8 @@ hr {
 .centered_box{
   height: 270px;
   width: 500px;
-  border-radius: 20px; 
+  border-radius: 20px;
+  margin: auto;
   background-color: #4E2A84; 
 }
 .contact_info{
