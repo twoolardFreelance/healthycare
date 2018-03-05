@@ -12,8 +12,8 @@ nutritionData = {
 chartOptions = {
   title: {
     display: true,
-    text: 'NUtrition Goal Breakdown',
-    fontSize: 30,
+    text: 'Goal Breakdown',
+    fontSize: 32,
     fontColor: "#4E2A84"
   }
 };
@@ -37,8 +37,8 @@ nutritionData = {
 chartOptions = {
   title: {
     display: true,
-    text: 'Your current NUtrition Breakdown',
-    fontSize: 30,
+    text: 'Current Breakdown',
+    fontSize: 32,
     fontColor: "#4E2A84"
   }
 };
