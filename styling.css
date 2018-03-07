@@ -389,11 +389,12 @@ padding-top: 10px;
 
 .box_design{
  margin-left: 20px;
+ font-size: 15px;
 }
 
 .centered_box{
-  height: 320px;
-  width: 500px;
+  height: 390px;
+  width: 600px;
   border-radius: 20px;
   margin: auto;
   background-color: #4E2A84; 
@@ -408,8 +409,9 @@ padding-top: 10px;
 }
 
 #submit_button{
-  margin:  10px 20px;
+  margin:  20px 0px 0px 20px;
   padding-left: 15px;
+  font-size: 15px;
 }
 
 
