@@ -383,12 +383,16 @@ hr {
   color: white;
 }
 
-.imput{
-  padding-left: 15px;
+.row{
+padding-top: 10px;
+}
+
+.box_design{
+ margin-left: 20px;
 }
 
 .centered_box{
-  height: 270px;
+  height: 320px;
   width: 500px;
   border-radius: 20px;
   margin: auto;
@@ -397,14 +401,17 @@ hr {
 
 .contact_info{
   color: #4E2A84;
-  height: 70px;
-  width: 500px;
   text-align: center;
-  position:relative;
-  top: 40px;
-  left:322px;
+  padding-top: 15px;
+  
 
 }
+
+#submit_button{
+  margin:  10px 20px;
+  padding-left: 15px;
+}
+
 
 .your_profile{
   color:#4E2A84; 
