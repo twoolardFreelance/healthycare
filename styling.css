@@ -11,7 +11,7 @@ main {
   overflow-y: scroll;
   z-index: 2;
   position: relative;
-  height: 170%;
+  height: 100%;
   background-color: white;
   -webkit-transition: transform .7s ease-in-out;
   -moz-transition: transform .7s ease-in-out;
