@@ -1,0 +1,84 @@
+<html>
+<head>
+  <link rel="stylesheet" href="forms.css"> </link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+  <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+</head>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+     <!-- Icon -->
+    <div class="fadeIn first">
+      <img id="logo" src="logo.png">
+    </div>
+
+    <div class="fadeIn second">
+      <p class="fixed_restrictions">Your allergies: Peanuts, Gluten</p>
+    </div>
+
+    <div class="fadeIn third">
+      <b id="diet_title"> Please select any dietary restrictions</b>
+    </div>
+
+    <form action="https://httpbin.org/get" method="post" class="chosen_select">
+      <select data-placeholder="Type a dietary restriction or diet" multiple class="chosen-select" name="test">
+        <option>Vegetarian</option>
+        <option>Vegan</option>
+        <option>Pescetarian</option>
+        <option>Low-Calorie</option>
+        <option>Low-Carbohydrate</option>
+        <option>Low-Sodium</option>
+      </select>
+    </form>
+
+    <div   class="fadeIn fourth">
+      <p class="fixed_restrictions">Your religious restrictions: Kosher</p>
+    </div>
+
+    <a href="account_3.html"><input type="button" class="fadeIn third" value="Next" onclick="#"></a>
+
+    <!-- Preferences dropdowns -->
+    <!--
+    <form> 
+      <div class="btn-group">
+        <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#"> Food allergies <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Dairy</a></li>
+            <li><a href="#">Eggs</a></li>
+            <li><a href="#">Peanuts</a></li>
+            <li><a href="#">Tree Nuts</a></li>
+            <li><a href="#">Soy</a></li>
+            <li><a href="#">Gluten</a></li>
+            <li><a href="#">Fish</a></li>
+            <li><a href="#">Shellfish</a></li>
+          </ul>
+      </div>
+      <div class="btn-group">
+        <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Dietary Restrictions/Diet <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Vegetarian</a></li>
+            <li><a href="#">Vegan</a></li>
+            <li><a href="#">Pescetarian</a></li>
+            <li><a href="#">Low-Calorie</a></li>
+            <li><a href="#">Low-Carbohydrate</a></li>
+          </ul>
+      </div>
+      <div class="btn-group">
+        <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Religious Restrictions<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Hindu</a></li>
+            <li><a href="#">Jewish</a></li>
+            <li><a href="#">Muslim</a></li>
+          </ul>
+      </div>
+      <input type="button" class="fadeIn third" value="Next" onclick="newPage(1)">
+    </form>
+    -->
+  </div>
+<script src="dropdown.js"> </script>
+</div>
+</html>

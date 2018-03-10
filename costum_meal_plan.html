@@ -1,0 +1,60 @@
+<html>
+<head>
+  <link rel="stylesheet" href="forms.css"> </link>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+  <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+</head>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+     <!-- Icon -->
+    <div class="fadeIn first">
+      <img id="logo" src="logo.png">
+    </div>
+
+    <div class="fadeIn second">
+      <b id="preferences_title"> Please choose your preferences</b>
+    </div>
+
+    
+    <!-- Preferences dropdowns -->
+    <form action="/action_page.php"> 
+      <div class="btn-group">
+        <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Select a Dining Hall <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Sargent</a></li>
+            <li><a href="#">Foster-Walker</a></li>
+            <li><a href="#">Allison</a></li>
+            <li><a href="#">Elder</a></li>
+          </ul>
+      </div>
+      <div class="btn-group">
+        <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Select a Cafe <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Lisa's</a></li>
+            <li><a href="#">Fran's</a></li>
+            <li><a href="#">Norris Starbucks</a></li>
+            <li><a href="#">Einstein's Bagels</a></li>
+          </ul>
+      </div>
+      <div class="btn-group">
+        <a class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Select your meal plan<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Unlimited</a></li>
+            <li><a href="#">Base 14</a></li>
+            <li><a href="#">Flex 330</a></li>
+            <li><a href="#">Commuter 50/50</a></li>
+          </ul>
+      </div>
+      <a href="account.html"><input type="button" class="fadeIn third" value="Next" onclick="#"></a>
+    </form>
+  
+
+
+  </div>
+<script src="dropdown.js"> </script>
+</div>
+</html>
