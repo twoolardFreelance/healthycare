@@ -374,3 +374,29 @@ position: center;
   width: 250px; 
   box-sizing: border-box;
 }
+
+.fixed_preferences{
+  font-family: "Julius Sans One", sans-serif;
+  letter-spacing: 0.2px;
+  border-spacing: 0px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ffb500; 
+  padding-left: 110px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.fixed_restrictions{
+  font-family: "Julius Sans One", sans-serif;
+  letter-spacing: 0.2px;
+  border-spacing: 0px;
+  font-size: 18px;
+  font-weight: normal;
+  font-weight: 300px;
+  color: #ffb500; 
+  padding-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
