@@ -42,33 +42,32 @@
   <div class="main_text">
   	<b>We would love to hear from you!</b>
   </div>
-
+	
   <div id="after_submit"></div>
   <div class="centered_box">
-    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <form id="contact_form" action="tycontactus.html" method="POST" enctype="multipart/form-data">
       <div class="row">
         <label class="required" for="name">Your name:</label><br />
-        <input class="box_design" id="name" class="input" name="name" type="text" value="" size="61" /><br />
+        <input class="box_design" id="name" class="input" name="name" type="text" value="" size="61" required/><br />
         <span id="name_validation" class="error_message"></span>
       </div>
       <div class="row">
         <label class="required" for="email">Your email address:</label><br />
-        <input class="box_design" id="email" class="input" name="email" type="text" value="" size="61" /><br />
+        <input class="box_design" id="emailAddress" class="input" name="email" type="email" value="" size="61" required/><br />
         <span id="email_validation" class="error_message"></span>
       </div>
       <div class="row">
         <label class="required" for="message">Your message:</label><br />
-        <textarea class="box_design" id="message" class="input" name="message" rows="10" cols="60"></textarea><br />
+        <textarea class="box_design" id="message" class="input" name="message" rows="10" cols="60" required></textarea><br />
         <span id="message_validation" class="error_message"></span>
       </div>
-      <input id="submit_button" type="button" value="Send email" onlick="newPage(2)">
+       <button  id="submit_button" type="submit">Submit</button>
     </form>
   </div>
   <div class="contact_info">
   	<b>2145 Sheridan Rd, Evanston, IL 60208 | (847) 910-7485</b>
   </div>
 </main>
-
 
 <div class="sidebar">
   <ul class="sidebar-list">
