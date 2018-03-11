@@ -456,12 +456,14 @@ padding-top: 10px;
   color:#00000; 
   font-size: 30px;
   font-family: "Julius Sans One", sans-serif;
+  text-align: center;
 }
 
 .choosemeal {
   color:#00000; 
   font-size: 25px;
   font-family: "Julius Sans One", sans-serif;
+  text-align: center;
 }
 
 .chooseitem{
