@@ -294,8 +294,6 @@ hr {
 .logo_pic {
   height: 130px;
   margin-left: 20px;
-  margin-bottom: 0px;
-  
 }
 
 #recommended_meals{ 
@@ -340,6 +338,7 @@ hr {
   float: right;
   margin-top: 80px;
   margin-right: 100px; 
+
 }
 #dining_halls tr,
 #dining_halls th{
@@ -360,6 +359,11 @@ hr {
   background-color: white;
   padding: 5px 10px;
   text-align: left;
+}
+#dining_halls td a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .charta-container {  
