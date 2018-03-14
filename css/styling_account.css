@@ -168,6 +168,7 @@ a:hover {
 }
 #userphoto img {
   display: block;
+  width: 150px;
   padding: 2px;
   background: #fff;
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);

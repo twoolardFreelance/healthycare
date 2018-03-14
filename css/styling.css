@@ -20,6 +20,12 @@ main {
   transition: transform .7s ease-in-out;
 }
 
+#main_content { 
+  background-image: url('../images/background_picture.jpg');
+  background-size: 100%;
+  height: 450px;
+}
+
 .sidebar {
   height: 100%;
   width: 400px;
@@ -257,7 +263,6 @@ nav {
 hr { 
     display: block;
     margin-top: 0px;
-    margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
@@ -274,7 +279,7 @@ hr {
   position: relative;
   right: 20px;
   bottom: 50px;
-  padding-top: 20px;
+  padding-top: 10px;
   margin: 5px;
  
 }
@@ -289,6 +294,7 @@ hr {
 .logo_pic {
   height: 130px;
   margin-left: 20px;
+  margin-bottom: 0px;
   
 }
 
@@ -471,3 +477,4 @@ padding-top: 10px;
   font-size: 20px;
   font-family: "Julius Sans One", sans-serif;
 }
+
