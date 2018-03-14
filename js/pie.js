@@ -1,6 +1,7 @@
-var nutritionCanvas, nutritionData, pieChart, chartOptions; 
+var nutritionCanvas_a, nutritionData_a, pieChart_a, chartOptions_a; 
+var nutritionCanvas_b, nutritionData_b, pieChart_b, chartOptions_b; 
 
-nutritionData = {
+nutritionData_a = {
   labels: ["Carbohydrates","Fats","Protein"],
   datasets: [{
     label: "Percent Daily",
@@ -9,7 +10,7 @@ nutritionData = {
   }]
 };
 
-chartOptions = {
+chartOptions_a = {
   title: {
     display: true,
     text: 'Goal Breakdown',
@@ -18,14 +19,7 @@ chartOptions = {
   }
 };
 
-nutritionCanvas = document.getElementById("pie-chart-a");
-pieChart = new Chart(nutritionCanvas, {
-  type: 'pie',
-  data: nutritionData,
-  options: chartOptions
-});
-
-nutritionData = {
+nutritionData_b = {
   labels: ["Carbohydrates","Fats","Protein"],
   datasets: [{
     label: "Percent Daily",
@@ -34,7 +28,7 @@ nutritionData = {
   }]
 };
 
-chartOptions = {
+chartOptions_b = {
   title: {
     display: true,
     text: 'Current Breakdown',
@@ -43,12 +37,21 @@ chartOptions = {
   }
 };
 
-nutritionCanvas = document.getElementById("pie-chart-b"); 
-pieChart = new Chart(nutritionCanvas, {
-  type: 'pie',
-  data: nutritionData,
-  options: chartOptions
-});
+window.onload = function() {
+  nutritionCanvas_a = document.getElementById("pie-chart-a");
+  pieChart_a = new Chart(nutritionCanvas_a, {
+    type: 'pie',
+    data: nutritionData_a,
+    options: chartOptions_a
+  });
+
+  nutritionCanvas_b = document.getElementById("pie-chart-b"); 
+  pieChart_b = new Chart(nutritionCanvas_b, {
+    type: 'pie',
+    data: nutritionData_b,
+    options: chartOptions_b
+  });
+}
 
 
 
