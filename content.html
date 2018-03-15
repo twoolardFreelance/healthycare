@@ -1,8 +1,10 @@
 <head>
   <link rel="stylesheet" href="css/styling.css"> </link>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+  
 </head>
-
 
 <div class="nav-right visible-xs">
   <div class="button" id="btn">
@@ -16,7 +18,7 @@
 
 	<div>
 		<img class="logo_pic" src="images/logo_pic.png">
-		<b class="logo_name"> <a href="content.html"> HEALTHY CATS </b> </a>
+		<b class="logo_name">HEALTHY CATS </b>
 		<!--<b class="your_profile"><a href="#">Shankar Salwan</b></a>-->
 	</div>
 
@@ -47,19 +49,78 @@
 				<th>Meals of the day</th>
 			</tr>
 			<tr>
-				<td>Grilled chicken with brown rice and green beans</td>
+				<td>
+					<form action="/action_page.php"> 
+						<div class="btn-group">
+							<a class="nutrition_dropdown" class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Grilled Chicken,Mashed Potatoes,Spinach Salad and Apple <span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+							    <li class="dropdown_content">Grilled Chicken 235kcal</li>
+							    <li class="dropdown_content">Mashed Potatoes 118kcal</li>
+							    <li class="dropdown_content">Spinach Salad 38kcal</li>
+							    <li class="dropdown_content">Apple 60kcal</li>
+							  </ul>
+						</div>
+				    </form>
+				</td>
 			</tr>
 			<tr>
-				<td>Quinoa chili with black beans, tomato, and corn</td>
+				<td>
+					<form action="/action_page.php"> 
+							<div class="btn-group">
+								<a class="nutrition_dropdown" class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Quinoa chili with black beans, tomato, and Berry Yogurt<span class="caret"></span></a>
+								  <ul class="dropdown-menu">
+								    <li class="dropdown_content">Quinoa 200kcal</li>
+								    <li class="dropdown_content">Black beans 97kcal</li>
+								    <li class="dropdown_content">Tomato 20kcal</li>
+								    <li class="dropdown_content">Berry Yogurt 136kcal</li>
+								  </ul>
+							</div>
+				    </form>
+				</td>
 			</tr>
 			<tr>
-				<td>Chickpea curry with rice and broccoli</td>
+				<td>
+					<form action="/action_page.php"> 
+							<div class="btn-group">
+								<a class="nutrition_dropdown" class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Chickpea curry,rice, broccoli and a banana<span class="caret"></span></a>
+								  <ul class="dropdown-menu">
+								    <li class="dropdown_content">Chickpea Curry 314kcal</li>
+								    <li class="dropdown_content">Rice 112kcal</li>
+								    <li class="dropdown_content">Broccoli 38kcal</li>
+								    <li class="dropdown_content">Banana 103kcal</li>
+								  </ul>
+							</div>
+				    </form>
+				</td>
 			</tr>
-	    <tr>
-				<td>Chicken sandwich with brown bread and lettuce</td>
+	    	<tr>
+				<td>
+					<form action="/action_page.php"> 
+							<div class="btn-group">
+								<a class="nutrition_dropdown" class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Chicken sandwich with brown bread,lettuce, Orange<span class="caret"></span></a>
+								  <ul class="dropdown-menu">
+								    <li class="dropdown_content">Chicken 180kcal</li>
+								    <li class="dropdown_content">Brown bread 175kcal</li>
+								    <li class="dropdown_content">Lettuce 12kcal</li>
+								    <li class="dropdown_content">Orange 54kcal</li>
+								  </ul>
+							</div>
+				    </form>
+				</td>
 			</tr>
 			<tr>
-				<td>Steak fajita with brown rice, tomato, and corn</td>
+				<td>
+				<form action="/action_page.php"> 
+							<div class="btn-group">
+								<a class="nutrition_dropdown" class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown" href="#">Steak fajita with brown rice, tomato, and corn<span class="caret"></span></a>
+								  <ul class="dropdown-menu">
+								    <li class="dropdown_content">Grilled Chicken 235kcal</li>
+								    <li class="dropdown_content">Garlic Mashed Potatoes 118kcal</li>
+								    <li class="dropdown_content">Spinach Salad 38kcal</li>
+								    <li class="dropdown_content">Apple 60kcal</li>
+								  </ul>
+							</div>
+				    </form></td>
 			</tr>
 	    
 		</table>
@@ -94,6 +155,7 @@
 			</tr>
 		</table>
 	</div>
+	<script src="js/dropdown.js"> </script>
 </main>
 
 <div class="sidebar">

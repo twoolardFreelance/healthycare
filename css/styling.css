@@ -276,7 +276,7 @@ hr {
   font-weight: 400;
   padding-left: 20px;
   font-weight: lighter;
-  position: relative;
+  position: top;
   right: 20px;
   bottom: 50px;
   padding-top: 10px;
@@ -346,7 +346,7 @@ hr {
   font-size: 32px;
   color: white;
   border: .5px solid black;
-   padding: 7px 10px;
+  padding: 7px 10px;
   letter-spacing: 0.2px;
   border-spacing: 0px;
   font-weight: 360;
@@ -363,7 +363,7 @@ hr {
 #dining_halls td a{
   text-decoration: none;
   color: black;
-  font-weight: bold;
+ 
 }
 
 .charta-container {  
@@ -482,3 +482,31 @@ padding-top: 10px;
   font-family: "Julius Sans One", sans-serif;
 }
 
+.nutrition_dropdown{
+color: black;
+text-align: left;
+}
+.nutrition_dropdown:hover{
+color: black;
+text-align: left;
+text-decoration:none;
+}
+.nutrition_dropdown {
+color: black;
+text-align: left;
+text-decoration:none;
+}
+.nutrition_dropdown a:after{
+color: black;
+text-align: left;
+text-decoration:none;
+}
+.dropdown-menu{
+width: 540px;
+color: #4E2A84;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.dropdown_content{
+  font-size: 16px;
+}
