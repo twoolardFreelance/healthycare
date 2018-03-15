@@ -304,7 +304,7 @@ hr {
   border-collapse: collapse;
   float: left;
   margin-top: 80px ;
-  margin-left: 100px;
+  margin-left: 80px;
  }
 #recommended_meals tr,
 #recommended_meals th{
@@ -337,7 +337,7 @@ hr {
   border-collapse: collapse;
   float: right;
   margin-top: 80px;
-  margin-right: 100px; 
+  margin-right: 80px; 
 
 }
 #dining_halls tr,
