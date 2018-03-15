@@ -209,6 +209,13 @@ nav {
 
 .sidebar-anchor:hover:before {
   width: 100%;
+  text-decoration: none;
+}
+
+.sidebar-anchor:hover {
+  width: 100%;
+  text-decoration: none;
+  color: white;
 }
 
 .ua {
