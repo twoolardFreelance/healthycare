@@ -337,7 +337,7 @@ hr {
   border-collapse: collapse;
   float: right;
   margin-top: 80px;
-  margin-right: 80px; 
+  margin-right: 80px;
 
 }
 #dining_halls tr,
@@ -509,4 +509,26 @@ padding-bottom: 2px;
 }
 .dropdown_content{
   font-size: 16px;
+}
+
+#greyed_box td{
+color: black;
+text-align: left;
+background-color: dcdcdc;
+
+}
+.nutrition_greyed:hover{
+color: #808080;
+text-align: left;
+text-decoration:none;
+}
+.nutrition_greyed {
+color: #808080;
+text-align: left;
+text-decoration:none;
+}
+.nutrition_greyed a:after{
+color: #808080;
+text-align: left;
+text-decoration:none;
 }
