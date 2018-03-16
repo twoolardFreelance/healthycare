@@ -14,15 +14,15 @@
     </div>
 
     <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Email">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
-      <a href="content.html"><input type="button" class="fadeIn fourth" value="Log In"></a>
+    <form action="content.html" method="POST" enctype="multipart/form-data">
+      <input type="email" id="login" class="fadeIn second" name="login" placeholder="Email" required>
+      <input type="password" id="password" class="fadeIn third" name="login" placeholder="Password" required>
+      <button type="submit" id="submit_button">LOG IN </button>
     </form>
 
     <!-- Remind Passowrd -->
     <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
+      <a class="underlineHover" href="forgotpassword.html">Forgot Password?</a>
     </div>
 
   </div>
