@@ -330,8 +330,9 @@ position: center;
   margin-right: 10px;
   font-size: 25px;
   width: 250px;
-  
 }
+
+.btn { color: black; }
 
 
 .dropdown-menu>li>a { 
