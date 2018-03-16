@@ -8,6 +8,7 @@ var url=new Array();
 url[0]="restrictions.html";
 url[1]="content.html";
 url[2]="contactus.html";
+url[3]="tycontactus.html";
 window.location=url[num];``
 };
 

@@ -39,6 +39,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 	<script src="js/sidebar.js"> </script>
+  <script src="js/dropdown.js"> </script>
 
   <div class="main_text">
   	<b>We would love to hear from you!</b>
@@ -62,7 +63,8 @@
         <textarea class="box_design" id="message" class="input" name="message" rows="10" cols="60" required></textarea><br />
         <span id="message_validation" class="error_message"></span>
       </div>
-       <button  id="submit_button" type="submit">Submit</button>
+      
+      <button  id="submit_button" type="submit" onclick="newPage(3)">Submit</button>
     </form>
   </div>
   <div class="contact_info">
