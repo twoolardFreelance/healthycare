@@ -98,7 +98,7 @@ h2.active {
 
 /* FORM TYPOGRAPHY*/
 
-input[type=button], input[type=submit], input[type=reset]  {
+input[type=button], input[type=submit], input[type=reset], button[type=submit]  {
   background-color: #4E2A84;
   border: none;
   color: white;
@@ -121,11 +121,11 @@ input[type=button], input[type=submit], input[type=reset]  {
   transition: all 0.3s ease-in-out;
 }
 
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button[type=submit]:hover  {
   background-color: #ffb500;
 }
 
-input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button[type=submit]:active  {
   -moz-transform: scale(0.95);
   -webkit-transform: scale(0.95);
   -o-transform: scale(0.95);
@@ -133,7 +133,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   transform: scale(0.95);
 }
 
-input[type=text] {
+input[type=text], input[type=email], input[type=password] {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -155,12 +155,12 @@ input[type=text] {
   border-radius: 5px 5px 5px 5px;
 }
 
-input[type=text]:focus {
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
   background-color: #fff;
   border-bottom: 2px solid #ffb500;
 }
 
-input[type=text]:placeholder {
+input[type=text]:placeholder, input[type=email]:placeholder, input[type=password]:placeholder {
   color: #cccccc;
 }
 
@@ -280,7 +280,30 @@ input[type=text]:placeholder {
   color: #ffb500 ;
 }
 
+/* Forgot password style*/
+.forgotpassword{
+  color: #4E2A84;
+}
 
+.forgotpassword:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #ffb500;
+  content: "";
+  transition: width 0.2s;
+}
+
+.forgotpassword:hover {
+  color: #ffb500;
+}
+
+.forgotpassword:hover:after{
+  width: 100%;
+  color: #ffb500;
+}
 
 /* OTHERS */
 
