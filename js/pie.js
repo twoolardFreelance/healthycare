@@ -2,7 +2,7 @@ var nutritionCanvas_a, nutritionData_a, pieChart_a, chartOptions_a;
 var nutritionCanvas_b, nutritionData_b, pieChart_b, chartOptions_b; 
 
 nutritionData_a = {
-  labels: ["Carbohydrates","Fats","Protein"],
+  labels: ["Carbohydrates (%DI)","Fats (%DI)","Protein (%DI)"],
   datasets: [{
     label: "Percent Daily",
     backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
@@ -20,7 +20,7 @@ chartOptions_a = {
 };
 
 nutritionData_b = {
-  labels: ["Carbohydrates","Fats","Protein"],
+  labels: ["Carbohydrates (%DI)","Fats (%DI)","Protein (%DI)"],
   datasets: [{
     label: "Percent Daily",
     backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
@@ -38,19 +38,21 @@ chartOptions_b = {
 };
 
 window.onload = function() {
+
   nutritionCanvas_a = document.getElementById("pie-chart-a");
   pieChart_a = new Chart(nutritionCanvas_a, {
     type: 'pie',
     data: nutritionData_a,
     options: chartOptions_a
   });
-
+  
   nutritionCanvas_b = document.getElementById("pie-chart-b"); 
-  pieChart_b = new Chart(nutritionCanvas_b, {
-    type: 'pie',
-    data: nutritionData_b,
-    options: chartOptions_b
-  });
+    pieChart_b = new Chart(nutritionCanvas_b, {
+      type: 'pie',
+      data: nutritionData_b,
+      options: chartOptions_b
+    });
+  
 }
 
 

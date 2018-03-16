@@ -388,15 +388,15 @@ hr {
 }
 
 .charta-container {  
-  float: left; 
-  width : 600px;
-  height: 800px;
+  float: right; 
+  width : 620px;
+  height: 600px;
 }
 
 .chartb-container { 
-  float: right; 
-  width: 600px;
-  height: 800px;
+  float: left; 
+  width: 620px;
+  height: 600px;
 }
 
 .main_text{
@@ -553,3 +553,7 @@ color: #808080;
 text-align: left;
 text-decoration:none;
 }
+
+.bottom-writing { 
+  position: relative;
+  bottom: 140px; }
