@@ -1,45 +1,15 @@
-
+<!doctype html>
+<html>
 <head>
-  <link rel="stylesheet" href="css/styling.css"> </link>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styling_dining.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 </head>
 
-
-<div class="nav-right visible-xs">
-  <div class="button" id="btn">
-    <div class="bar top"></div>
-    <div class="bar middle"></div>
-    <div class="bar bottom"></div>
-  </div>
-</div>
-<!-- nav-right -->
-<main>
-
-	<div>
-		<img class="logo_pic" src="images/logo_pic.png">
-		<b class="logo_name">HEALTHY CATS</b>
+<body id="content">
+	<div id="topbar">
+		<a href="content.html">Back to Main Menu</a>
 	</div>
 
-	<nav>
-	<div class="nav-right hidden-xs">
-	  <div class="button" id="btn">
-	    <div class="bar top"></div>
-	    <div class="bar middle"></div>
-	    <div class="bar bottom"></div>
-	  </div>
-	</div>
-	<!-- nav-right -->
-	</nav>
-
-	<a href="account.html" class="ua">
-		<i class="fa fa-user"></i>
-	</a>
-
-	<hr>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-	<script src="js/sidebar.js"> </script>
-	
 	<div class="choose"> 
 		<b>Sargent Dining Hall</b>
 	</div>
@@ -47,50 +17,48 @@
 		<p>Make your own meal</p>
 	</div>
 	<div class="chooseitem">
-	<form action="/action_page.php" method="get">
-		<div>
-			<h>Protein<br>
-  			<input type="checkbox" name="protein" value="">Grilled Chicken<br>
-  			<input type="checkbox" name="protein" value="">Turkey<br>
-			<input type="checkbox" name="protein" value="">Steak<br>
-			<input type="checkbox" name="protein" value="">Tofu<br>
-		</div>
-		<div>
-			<h>Carbohydrate<br>
-  			<input type="checkbox" name="carbohydrate" value="">Brown Rice<br>
-  			<input type="checkbox" name="carbohydrate" value="">Burger Bun<br>
-			<input type="checkbox" name="carbohydrate" value="">Wheat Pasta<br>
-			<input type="checkbox" name="carboyhdrate" value="">Quinoa<br>
-		</div>
-		<div>
-			<h>Vegetable<br>
-  			<input type="checkbox" name="vegetable" value="">Diced Tomatoes<br>
-  			<input type="checkbox" name="vegetable" value="">Baby Arugula<br>
-			<input type="checkbox" name="vegetable" value="">Broccoli<br>
-			<input type="checkbox" name="vegetable" value="">Green Beans<br>
-			<input type="checkbox" name="vegetable" value="">Sauteed Spinach and Onions<br>
-			<input type="checkbox" name="vegetable" value="">Roasted Potatoes<br>
-			<input type="checkbox" name="vegetable" value="">Salad Bar<br>
-		</div>
-		<div>
-			<h>Dessert<br>
-  			<input type="checkbox" name="dessert" value="">Banana<br>
-			<input type="checkbox" name="dessert" value="">Apple<br>
-			<input type="checkbox" name="dessert" value="">Yogurt Berry Parfait<br>
-		</div>
-			<input type="submit" value="Submit">
-	</form>
+		<form action="/action_page.php" method="get" id="food">
+			<div>
+				<h>Protein<br>
+					<input type="checkbox" name="protein" value="">Grilled Chicken<br>
+					<input type="checkbox" name="protein" value="">Turkey<br>
+					<input type="checkbox" name="protein" value="">Steak<br>
+					<input type="checkbox" name="protein" value="">Tofu<br>
+			</div>
+		</form> 
+		<form action="/action_page.php" method="get" id="food">
+			<div>
+				<h>Carbohydrate<br>
+					<input type="checkbox" name="carbohydrate" value="">Brown Rice<br>
+					<input type="checkbox" name="carbohydrate" value="">Burger Bun<br>
+					<input type="checkbox" name="carbohydrate" value="">Wheat Pasta<br>
+					<input type="checkbox" name="carboyhdrate" value="">Quinoa<br>
+			</div>
+		</form>
+		<form action="/action_page.php" method="get" id="food">
+			<div>
+				<h>Vegetable<br>
+					<input type="checkbox" name="vegetable" value="">Diced Tomatoes<br>
+					<input type="checkbox" name="vegetable" value="">Baby Arugula<br>
+					<input type="checkbox" name="vegetable" value="">Broccoli<br>
+					<input type="checkbox" name="vegetable" value="">Green Beans<br>
+					<input type="checkbox" name="vegetable" value="">Sauteed Spinach<br>
+					<input type="checkbox" name="vegetable" value="">Roasted Potatoes<br>
+					<input type="checkbox" name="vegetable" value="">Salad Bar<br>
+			</div>
+		</form>
+		<form action="/action_page.php" method="get" id="food">
+			<div>
+				<h>Dessert<br>
+					<input type="checkbox" name="dessert" value="">Banana<br>
+					<input type="checkbox" name="dessert" value="">Apple<br>
+					<input type="checkbox" name="dessert" value="">Yogurt Berry Parfait<br>
+			</div>
+		</form>
+		<form action="/action_page.php" method="get" id="submit">
+				<input type="submit" value="Submit">
+		</form>
 	</div>
 
-</main>
+</body>
 
-
-<div class="sidebar">
-  <ul class="sidebar-list">
-    <li class="sidebar-item"><a href="content.html" class="sidebar-anchor">Home</a></li>
-    <li class="sidebar-item"><a href="nutrition.html" class="sidebar-anchor">NUtrition</a></li>
-    <li class="sidebar-item"><a href="progress.html" class="sidebar-anchor">Progress</a></li>
-    <li class="sidebar-item"><a href="contactus.html" class="sidebar-anchor">Contact Us</a></li>
-    <li class="sidebar-item"><a href="index.html" class="sidebar-anchor">Logout</a></li>
-  </ul>
-</div>
