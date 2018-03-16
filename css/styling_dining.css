@@ -41,6 +41,7 @@ html { overflow-y: scroll; }
   opacity: 0.5;
   font-weight: bold;
   padding-right: 30px;
+  font-family: "Julius Sans One", sans-serif;
 }
 #topbar a:hover {
   opacity: 1;

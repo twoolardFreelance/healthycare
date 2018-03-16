@@ -283,6 +283,20 @@ hr {
   font-weight: 400;
   padding-left: 20px;
   font-weight: lighter;
+  position: relative;
+  right: 20px;
+  bottom: 50px;
+  padding-top: 10px;
+  margin: 5px; 
+}
+
+.logo_name_homepage {
+  color:#4E2A84; 
+  font-size: 55px;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  padding-left: 20px;
+  font-weight: lighter;
   position: top;
   right: 20px;
   bottom: 50px;
