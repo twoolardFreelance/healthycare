@@ -7,8 +7,8 @@
     <!-- Tabs Titles -->
     <h2 class="inactive underlineHover"><a href="index.html">Sign In </a></h2>
     <h2 class="active">Sign Up </h2>
-    
-    
+
+
 
     <!-- Icon -->
     <div class="fadeIn first">
@@ -16,12 +16,12 @@
     </div>
 
     <!-- Login Form -->
-    <form>
-      <input type="text" id="First Name" class="fadeIn second" name="First Name" placeholder="First Name">
-      <input type="text" id="Last Name" class="fadeIn third" name="Last Name" placeholder="Last Name">
-      <input type="text" id="Email" class="fadeIn fourth" name="Email" placeholder="Email">
-      <input type="text" id="Password" class="fadeIn fifth" name="Password" placeholder="Password">
-      <a href="preferences.html"><input type="button" class="fadeIn sixth" value="Next"></a>
+    <form action="preferences.html" method="POST" enctype="multipart/form-data">
+      <input type="text" id="First Name" class="fadeIn second" name="First Name" placeholder="First Name" required>
+      <input type="text" id="Last Name" class="fadeIn third" name="Last Name" placeholder="Last Name" required>
+      <input type="email" id="Email" class="fadeIn fourth" name="Email" placeholder="Email" required>
+      <input type="password" id="Password" class="fadeIn fifth" name="Password" placeholder="Password" required>
+        <button type="submit" id="submit_button" class="fadeIn sixth" >Next</button>
     </form>
 
   </div>
