@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" media="all" href="css/styling_account.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+</head>
+
+<body>
+  <div id="topbar">
+  <a href="content.html">Back to Main Menu</a>
+  </div>
+  
+  <div id="w">
+    <div id="content" class="clearfix">
+      <div id="userphoto"><img src="images/cavatar.png" alt="default avatar"></div>
+      <h1>Your account information</h1>
+
+      <nav id="profiletabs">
+        <ul class="clearfix">
+          <li><a href="#bio" class="sel">Account Info</a></li>
+          <li><a href="#activity">Activity</a></li>
+          <li><a href="#settings">Settings</a></li>
+        </ul>
+      </nav>
+      
+      <section id="bio">
+        <p>You can edit your Account Info here:</p>
+        
+        <p class="bio_info"><span>Full Name</span> Alexis Baudron</p>
+        
+        <p class="bio_info"><span>E-Mail address</span> alexisbdr@gmail.com</p>
+        
+        <p class="bio_info"><span>Meal Plan <a href="costum_meal_plan.html"><img src="images/edit.png" alt="*Edit*"></a></span> Commuter 50/50</p>
+        
+        <p class="bio_info"><span>Your Dining Hall <a href="costum_dining_hall.html"><img src="images/edit.png" alt="*Edit*"></a></span> Plex</p>
+        
+        <p class="bio_info"><span>Your Cafe<a href="costum_cafe.html"><img src="images/edit.png" alt="*Edit*"></a></span> Fran's Cafe</p>
+
+        <p class="bio_info"><span>Your dietary restrictions <a href="costum_restrictions.html"><img src="images/edit.png" alt="*Edit*"></a></span> Vegeterian</p>
+
+        <p class="bio_info"><span>Your food allergies<a href="costum_allergies.html"><img src="images/edit.png" alt="*Edit*"></a></span> Dairy</p>
+
+        <p class="bio_info"><span>Your religious restrictions<a href="costum_allergies.html"><img src="images/edit.png" alt="*Edit*"></a></span>-</p>
+      </section>
+      
+      <section id="activity" class="hidden">
+        <p>Most recent meals:</p>
+        
+        <p class="activity">03/03/18 @12:15PM - Lunch at Foster Walker West Hall</p>
+        
+        <p class="activity">03/03/18 @7:35PM - Dinner at Foster-Walker Dining Hall</p>
+        
+        <p class="activity">03/04/18 @8:15AM - Breakfast at Sargent Hall</p>
+        
+        <p class="activity">03/04/18 @4:30PM - Lunch at Allison</p>
+      </section>
+      
+      <section id="settings" class="hidden">
+        <p>Manage your Settings by toggling the switches</p>
+
+        <p> Notifications </p>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+
+        <p> Send me promotional emails </p>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+
+        <p>Send my data to evil companies</p>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+
+
+      </section>
+
+    </div>
+  </div>
+<script src="js/acc.js"></script>
+</body>
+</html>
