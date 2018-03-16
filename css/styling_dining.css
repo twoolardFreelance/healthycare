@@ -48,23 +48,31 @@ html { overflow-y: scroll; }
 
 
 .choose {
-  color:#00000; 
-  font-size: 30px;
   font-family: "Julius Sans One", sans-serif;
+  font-size: 35px;
   text-align: center;
+  color: #4E2A84;
+  padding-top: 60px;
 }
 
 .choosemeal {
-  color:#00000; 
-  font-size: 25px;
   font-family: "Julius Sans One", sans-serif;
+  font-size: 25px;
   text-align: center;
+  color: #4E2A84;
+  font-weight: 400;
+  font-weight: lighter;
+  padding-top: 0px;
 }
 
 .chooseitem{
-  color:#00000; 
+  color:white; 
   font-size: 20px;
   font-family: "Julius Sans One", sans-serif;
+  padding-left: 2px;
+  position: center;
+
+
 }
 
 #food{ 
@@ -75,7 +83,9 @@ html { overflow-y: scroll; }
   margin: 5px;
   margin-top: 45px;
   margin-left: 60px;
-  background-color: gray; 
+  background-color:#4E2A84; 
+  opacity: 0.8;
+  border-color: #4E2A84;opacity: 0.8;
 }
 
 #submit{ 
@@ -87,6 +97,16 @@ html { overflow-y: scroll; }
 #submit input{
   font-size: 20px;
   border-radius: 8px;
-  background-color: #4E2A84;
+  background-color: #4E2A84;opacity: 0.8;
+  color: white;
 }
 
+.items {
+font-weight: bold;
+font-size: 25px;
+margin: 5px;
+}
+
+.checkbox {
+margin: 7px;
+}
