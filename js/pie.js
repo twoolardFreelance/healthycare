@@ -13,7 +13,7 @@ nutritionData_a = {
 chartOptions_a = {
   title: {
     display: true,
-    text: 'Goal Breakdown',
+    text: 'Your Goal',
     fontSize: 32,
     fontColor: "#4E2A84"
   }

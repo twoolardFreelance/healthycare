@@ -20,6 +20,11 @@ main {
   transition: transform .7s ease-in-out;
 }
 
+i {
+  font-family: "Julius Sans One", sans-serif;
+  margin-left: 10px;
+}
+
 #main_content { 
   background-image: url('../images/background_picture.jpg');
   background-size: 100%;
